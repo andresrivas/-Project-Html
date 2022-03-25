@@ -1,0 +1,48 @@
+.container {
+  background           : linear-gradient(70deg, black, white);
+  margin               : 0 auto;
+  max-width            : 100%;
+  min-height           : 100vh;
+  display              : grid;
+  grid-template-columns: 25% 50% 25%;
+ /* grid-template-rows   : flex flex flex flex;*/
+  grid-template-areas  : "header header header"
+    "animacion animacion animacion"
+    "aside-left efecto aside-right"
+    "aside-left main aside-right"
+    "footer footer footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+
+.div-anim {
+  grid-area: animacion;
+}
+
+.aside-left {
+  grid-area : aside-left;
+  background: linear-gradient(70deg, black, rgb(75, 75, 75));
+}
+
+.efecto {
+  grid-area : efecto;
+  text-align: center;
+  height    : 150px;
+}
+
+.main {
+  grid-area: main;
+}
+
+.aside-right {
+  grid-area : aside-right;
+  background: linear-gradient(70deg, black, rgb(75, 75, 75));
+}
+
+.footer {
+  grid-area : footer;
+  background: linear-gradient(70deg, black, white);
+}

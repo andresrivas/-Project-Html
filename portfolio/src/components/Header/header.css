@@ -1,0 +1,42 @@
+.cntr-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 100px;
+  margin: 0px 30px;
+}
+
+.lnk {
+  text-decoration: none;
+  text-align: center;
+  transition: 0.8s;
+  width: 50px;
+  height: 50px;
+  border-radius: 106px;
+  background: #181f27;
+  box-shadow: inset -9px -9px 18px #0f1318, inset 9px 9px 18px #212b36;
+}
+
+.lnk:hover {
+  background: rgb(21, 24, 24);
+}
+
+.lnk span {
+  color: gray;
+  font-size: 29px;
+  transition: 0.8s;
+}
+
+/* .lnk span:hover {
+  color: red;
+} */
+
+.cntr-header h1 {
+  /* color: transparent; */
+  background: #666666;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+}
